@@ -11,7 +11,7 @@ from fastapi_redis_cache.redis import redis_connect
 from fastapi_redis_cache.util import serialize_json
 
 DEFAULT_RESPONSE_HEADER = "X-FastAPI-Cache"
-ALLOWED_HTTP_TYPES = ["GET"]
+ALLOWED_HTTP_TYPES = ["GET", "POST"]
 LOG_TIMESTAMP = "%m/%d/%Y %I:%M:%S %p"
 HTTP_TIME = "%a, %d %b %Y %H:%M:%S GMT"
 
